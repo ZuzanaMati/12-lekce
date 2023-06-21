@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Formuláře</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Formuláře</h1>
+
+	<!--
+		Adresa pro odeslání formuláře:
+		http://formular.itgirls.cz/
+	-->
+
+	<form method="post" action="http://formular.itgirls.cz/">
+		<label for="jmeno">Krestni jmeno</label>
+		<input id="jmeno" type="number" name="jmeno" placeholder="Vypln jmeno" value="Michal" autofocus>
+		<label for="prijmeni">Prijmeni</label>
+		<input id="prijmeni" type="text" name="prijmeni" value="Kucera" >
+		<input type="password">
+
+		<input type="submit" value="Odeslat">
+	</form>
+</body>
+</html>
