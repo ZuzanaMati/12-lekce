@@ -36,3 +36,39 @@ element[attr="val"]		element s attributem o určité hodnotě
 						^= na začátku
 						$= na konci
 */
+
+.box h2 {
+	background-color: pink;
+}
+
+/* element1 element2			element2 uvnitř elementu1 (nemusí být přímý rodič) */
+.box p {
+	background-color: wheat;
+}
+
+/* element1>element2		  element2, jehož přímý rodič je element1 */
+.box>p {
+	background-color: red;
+}
+
+/* element1+element2		  element2, který následuje okamžitě za elementem1 */
+.box+p {
+	background-color: aqua;
+}
+
+/* element1~element2     element2, kterému předchází element1 
+  to co predtim ale naopak nastyluje se prvni element ktery predchazi prvku p */
+
+
+/* element[attr="val"]		element s attributem o určité hodnotě
+						*= kdekoliv v textu
+						^= na začátku
+						$= na konci */
+[href$=".com"] {
+	background-color: orange;
+}
+
+[href$=".pdf"]::before {
+	content: "p";
+	background-color: red;
+}

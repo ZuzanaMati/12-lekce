@@ -10,4 +10,7 @@ body {
 
 /* -------------------------------------------- */
 
-  
+  input[type="text"] {
+	background-color: green;
+	border: 2px solid deeppink;
+  }

@@ -35,3 +35,43 @@ CSS Selektory:
 :nth-child(3n+3)		každý 3. potomek
 
 */
+
+
+
+/* musi tady byt ta mezera za mrizkou aby se vybral prvni prvek */
+
+/* .mrizka :first-child {
+	background-color: green;
+}
+
+.ctverec:first-child {
+	background-color: red;
+}
+
+.ctverec:last-child {
+	background-color: blue;
+}
+
+.ctverec:nth-child(2) {
+	background-color: orange;
+}
+
+/* z kazde trojice jen ten prvni bude mit background color */
+/* .ctverec:nth-child(3n+1) {
+	background-color: aquamarine;
+} */
+
+p {
+	background-color: aqua;
+}
+
+/*tohle vyhraje protoze tento selektor je specifictejsi*/
+.ctverec p {
+	background-color: gold;
+}
+
+p {
+	background-color: blue;
+}
+
+
